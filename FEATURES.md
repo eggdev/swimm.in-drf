@@ -9,6 +9,7 @@
 - [ ] Workouts persist for the coaches with date and data about which athletes started/completed them and when
 - [ ] Can clone a workout and send it out as a new one
 - [ ] What data would we want to get from it? Connect Apple Watch stuff to it?
+- [ ] Can scan an image of a white board and translate it to an actual workout
 
 ## Athlete features
 - [ ] Clock linked to account, bluetooth to phone and application
