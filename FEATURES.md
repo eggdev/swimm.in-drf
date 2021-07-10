@@ -28,3 +28,4 @@
 - [ ] Interval/time (1:00, or just run pace clock)
 - [ ] Equipment requirements (bouy, kickboard, etc.)
 - [ ] Drill Type (custom text, with limit based on board specs)
+- [ ] Sets are stored individually so coach can plug them in easily on the app
