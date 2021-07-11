@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
@@ -24,6 +23,7 @@ SECRET_KEY = "django-insecure-&in&%u&#*&9*4qi9#gya2qe=yub29#nwcq+255_fe4!ffonez)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = []
 
@@ -49,7 +49,8 @@ MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
-    "django.middleware.csrf.CsrfViewMiddleware",
+    # "django.middleware.csrf.CsrfViewMiddleware",
+    "swimm.utils.DisableCSRFMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",

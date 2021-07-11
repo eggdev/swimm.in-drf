@@ -1,9 +1,11 @@
 ## Core Features
+
 - [ ] Create user with Apple/Google login
 - [ ] Coach accounts - subscription based on number of athletes
-- [ ] Athlete accounts - only have to pay if alone? maybe not even idk
+- [ ] Athlete accounts - only have to pay if alone? maybe not even idk that doesn't matter yet
 
 ## Coach Features
+
 - [ ] Coaches can have many athletes linked to them, through invitation or search in app, doesn't really matter right now
 - [ ] Coaches write workouts and bulk or individually assign them to athletes
 - [ ] Workouts persist for the coaches with date and data about which athletes started/completed them and when
@@ -12,17 +14,20 @@
 - [ ] Can scan an image of a white board and translate it to an actual workout
 
 ## Athlete features
+
 - [ ] Clock linked to account, bluetooth to phone and application
 - [ ] Todays workout downloads to clock for offline usage, can be access through bluetooth too
 - [ ] Can write their own workout and upload it any time, but cannot remove a workout from a coach
 - [ ] There should be some sort of community of workouts maybe that you can access if you don't have a coach
 
 ## Workout Features
+
 - [ ] List of Sets
 - [ ] Aggregate of workout timing
 - [ ] Total yardage (meters)
 
 ### Set Features
+
 - [ ] Reps (10x)
 - [ ] Individual Rep Distance (50's)
 - [ ] Interval/time (1:00, or just run pace clock)
