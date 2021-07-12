@@ -8,7 +8,7 @@ from workout.models import Set
 #         fields = ["sets"]
 
 
-class SetSerializer(serializers.Serializer):
+class SetSerializer(serializers.ModelSerializer):
     class Meta:
         model = Set
         fields = ["repetitions", "stroke", "distance", "interval", "equipment"]
