@@ -1,5 +1,6 @@
 import datetime
 from django.db import models
+from django.conf import settings
 
 # Strokes will be needed in some interesting capacity
 # How do you do make this easy to add numerous strokes to one set?

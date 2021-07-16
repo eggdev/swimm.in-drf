@@ -9,6 +9,8 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class GroupSerializer(serializers.HyperlinkedModelSerializer):
+    # Is a coach?
+    # Is an athlete?
     class Meta:
         model = Group
         fields = ["url", "name"]
