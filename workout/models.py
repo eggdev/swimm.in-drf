@@ -25,7 +25,7 @@ EQUIPMENT = (
 )
 
 
-class Set(models.Model):
+class WorkoutSet(models.Model):
     repetitions = models.CharField(max_length=100, default="")
     distance = models.CharField(max_length=100, default="")
     interval = models.CharField(max_length=100, default="")
@@ -35,6 +35,19 @@ class Set(models.Model):
 
     def __str__(self):
         return f"{self.repetitions} x {self.distance} on {self.interval}"
+
+    class Meta:
+        ordering = ["id"]
+
+
+class TrainingSession(models.Model):
+    """
+    A TrainingSession is defining what an athlete would do in a practice
+    A TrainingSession is one or more sets
+    """
+
+    name = models.CharField(max_length=100, default="")
+    workout_sets = models.ManyToManyField(WorkoutSet, related_name="workout_set")
 
     class Meta:
         ordering = ["id"]

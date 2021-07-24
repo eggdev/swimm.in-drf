@@ -22,7 +22,8 @@ from workout import views as workout_views
 router = routers.DefaultRouter()
 router.register(r"users", user_views.UserViewSet)
 router.register(r"groups", user_views.GroupViewSet)
-router.register(r"sets", workout_views.SetViewSet)
+router.register(r"sets", workout_views.WorkoutSetViewSet)
+router.register(r"training-sessions", workout_views.TrainingSessionViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
